@@ -1,0 +1,71 @@
+<!DOCTYPE HTML><!--Format de document-->
+<html lang="fr"><!--PAge défini en français-->
+
+
+
+	 <head>
+		<meta charset="utf-8">
+		<title>SFCV : Spécialiste Français n°1 des Caves à Vin</title> <!--Titre de la page-->
+		<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+	</head>
+	<body>
+			<div id="entete"><!--Début de l'entête-->
+				<img src="../images/logo.png" alt="image logos"><!--chemin de l'image du logo-->
+				<h1>SFCV</h1><!--Titre principal-->
+				<h3>N°1 des caves à vins</h3><!--Sous titre-->
+			</div><!--fin de l'entête-->
+			<hr>
+			<div id="menu"><!--Début du menu-->
+				<ul><!--Début de la liste a puces-->
+					<li><a href="../index.html">Acceuil</a></li>
+					<li><a href ="produits.html">Produits</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul><!--Fin de la liste-->	
+			</div><!--Fin du menu-->
+			<hr>
+			<div id="bloc"><!--Début du bloc-->
+				<h2>Demande de catalogue</h2>
+				<p>Demandez-nous vite notre catalogue gratuit !<br>
+					il vous sera livré dans les meilleurs délais.</p>
+				<form method="post" action="mailto:aimegamard146@gmail.com?subject=demande-de-catalogue" enctype="text/plain">
+					<p>
+						<label for="Civilite">Civilité</label><!--champ Civilité-->
+						<select name="Civilite" id="Civilite">
+							<option value="1">Monsieur</option>
+							<option value="2">Madame</option>
+						</select>
+					</p>	
+					<p>
+						<label for="Nom">Nom</label><!--champ Nom-->
+						<input type="text" required="required" name="Nom" id="Nom" size="30" maxlength="20">
+					</p>
+					<p>
+						<label for="prenom">Prénom</label><!--champ Prénom-->
+						<input type="text" required="required" name="prenom" id="prenom" size="30" maxlength="25">
+					</p>	
+					<p>
+						<label for="adresse">Adresse</label><!--champ Adresse-->
+						<textarea required="required" name="adresse" id="adresse"></textarea>
+					</p>
+					<p>
+						<label for="ville">Ville</label><!--champ Ville-->
+						<input type="text" required="required" name="ville" id="ville" size="30" maxlength="25">
+						<label for="code_postal">Code Postal :</label><!--champ Code Postal-->
+						<input type="text"  required="required" name="code_postal" id="code_postal" size="5" maxlength="5">
+					</p>
+					<p>
+						<input type="checkbox" id="recevoir" name="recevoir">je souhaite recevoir la neuwsletter<!--checkbox neswletter-->
+						- Courriel <input type="text" required="required" name="courriel"  id="courriel" size="30" maxlength="80"><!--Champ courriel-->
+					</p>
+					<input type="submit" name="Envoyer" value="Envoyer"><!--Bouton Envoyer-->
+				<p>Ce site a fait l'objet d'une déclaration auprès de la Commission Nationale informatique et Libertés (CNIL). Conformément aux dispositions de la loi Informatique et libertés du 6/01/1978, vous dispoze d'un droit de modification, de rectification et d'opposition/suppression des données vous concernant, ce par simple demande à : info@sfcv.com</p>
+				<p>N'hésitez pas à prendre contact avec l'équipe SFCV. Nous répondrons à toutes vos questions sur l'aménagement de votre cave ou le choix de votre armoire à vin. Tous les conseils de professionnels pour conserver vos meilleurs vin en toute sécurité pour le plaisir de les déguster en toute convivialité.</p>
+			</div><!--Fin du bloc-->
+			<hr>
+			<div id="pied"><!--Début du bloc pied-->
+				<p>© SFCV - <a href="sfcv.html">Mentions légales</a></p><!-- touches "alt + 0 + 1 + 6 + 9" pour avoir : "©"-->
+				<p>L'abus d'alcool est dangeureux pour la santé, à consommer avec modération</p>
+			</div><!--fin du bloc-->
+		</body>		
+</html>			
